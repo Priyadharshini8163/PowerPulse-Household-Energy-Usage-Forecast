@@ -1,0 +1,20 @@
+Requirements:
+==================
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import plotly.express as px
+import scipy.stats as stats
+import warnings
+
+# Suppress all warnings
+warnings.filterwarnings('ignore')
+
+
+from sklearn.inspection import permutation_importance
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+from sklearn.neural_network import MLPRegressor
+from sklearn import metrics
